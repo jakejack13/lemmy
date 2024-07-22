@@ -103,7 +103,7 @@ rand = "0.8.5"
 opentelemetry = { version = "0.17.0", features = ["rt-tokio"] }
 tracing-opentelemetry = { version = "0.17.4" }
 ts-rs = { version = "6.2", features = ["serde-compat", "format", "chrono-impl"] }
-rustls = { version ="0.21.2", features = ["dangerous_configuration"]}
+rustls = { version ="0.21.12", features = ["dangerous_configuration"]}
 futures-util = "0.3.28"
 tokio-postgres = "0.7.8"
 tokio-postgres-rustls = "0.10.0"
